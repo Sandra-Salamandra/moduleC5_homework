@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>C5.6. Работа с HTTP (fetch, async/await)</title>
+	<link rel="stylesheet" href="C5.6 fetch.css">
+</head>
+<body>
+	<h1>C5.6. Работа с HTTP (fetch, async/await)</h1>
+	<h1>Задание 4</h1>
+
+	<p>
+	  	<div>Напишите код приложения, интерфейс которого представляет собой 2 <em>input</em> и кнопку. В <em>input</em> можно ввести любое число. При клике на кнопку происходит следующее:</div>
+	 	<ul>
+		    <li>Если оба числа не попадают в диапазон от 100 до 300 или введено не число — выводить ниже текст «одно из чисел вне диапазона от 100 до 300»;</li>
+		    <li>Если числа попадают в диапазон от 100 до 300 — сделать запрос c помощью fetch по <em>URL</em> https://picsum.photos/200/300, где первое число — ширина картинки, второе — высота.</li>
+	    </ul>
+	</p>
+
+	<hr>
+
+	<p>
+		Введите ШИРИНУ от 100px до 300px:	
+		<input class="inpWidth j-inputWidth" type="text">
+	</p>
+	
+	<p>
+		Введите ВЫСОТУ от 100px до 300px:	
+		<input class="inpHeight j-inputHeight" type="text">
+	</p>
+
+	<button class="btn j-btn">Обработать</button>
+
+	<div class="result j-result">
+		<p>Здесь будет результат запроса</p>
+	</div>
+
+	<script src="C5.6 fetch.js"></script>
+</body>
+</html>

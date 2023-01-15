@@ -1,0 +1,63 @@
+p1, .textInp {
+  margin-left: 15px;
+}
+
+p1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.inputPage {
+  width: 100px;
+  height: 30px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.inpLimit {
+  width: 100px;
+  height: 30px;
+  margin-left: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  margin: 0 15px 10px 15px;
+  padding: 10px 50px;
+  border-radius: 1px;
+  font-size: 15px;
+  line-height: 15px;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.pic {
+  margin: 5px 15px;
+}
+
+.pic-image {
+  height: 100px;
+  width: 150px;
+}
